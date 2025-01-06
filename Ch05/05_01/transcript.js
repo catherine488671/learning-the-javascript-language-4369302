@@ -1,6 +1,6 @@
-for (let i = 0; i < 10; i += 1) {
+for (let i = 0; i < 10; i++) {
   console.log(i);
-}
+}//loops 10 times because starting at 0
 
 // very common use case: looping over an array.
 var pageNames = [
@@ -14,6 +14,7 @@ var pageNames = [
 for (i = 0; i < pageNames.length; i += 1) {
   if (document.title === pageNames[i]) {
     console.log("We ARE here: " + pageNames[i]);
+    break;
   } else {
     console.log("We are not here: " + pageNames[i]);
   }

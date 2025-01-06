@@ -9,7 +9,7 @@ speakSomething("Good morning");
 speakSomething();
 
 function addingMachine() {
-  // initialize the total we'll be returning
+  // initialize the total we'll be returning, take advantage of a function called arguments
   var total = 0;
 
   for (var i = 0; i < arguments.length; i += 1) {

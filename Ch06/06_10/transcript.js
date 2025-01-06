@@ -20,6 +20,13 @@ myTextField.addEventListener("keyup", () => {
   console.log("Someone is typing!");
 });
 
+function myFunction () {   
+var myNum = 5;    
+return myNum;  
+var myNum = 10;    
+return myNum; }
+
+
 // https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach

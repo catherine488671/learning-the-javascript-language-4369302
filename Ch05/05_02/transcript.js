@@ -29,7 +29,7 @@ var pages = {
   fifth: "Blog",
 };
 for (var p in pages) {
-  if (pages.hasOwnProperty(p)) {
+  if (pages.hasOwnProperty(p)) {//does this object pages have its own property of var p
     console.log(p, pages[p]);
   }
 }

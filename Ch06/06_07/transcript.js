@@ -1,5 +1,5 @@
 // Shim allowing this code to work in a browser as well as node
-if (!global && typeof window !== 'undefined') {
+if (!global && typeof window !== "undefined") {
   var global = window;
 }
 
@@ -28,11 +28,11 @@ function doubleIt(num) {
 }
 
 if (1 === 1) {
-  const oneIsOne = 'Yes indeed.';
-  console.log('One is one, right?', oneIsOne);
+  const oneIsOne = "Yes indeed.";
+  console.log("One is one, right?", oneIsOne);
 }
 
-console.log('One is still one, right?', oneIsOne); // ReferenceError
+console.log("One is still one, right?", oneIsOne); // ReferenceError
 
 // More info:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#function_scope

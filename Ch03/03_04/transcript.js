@@ -1,4 +1,4 @@
-var animal = {
+var animal2 = {
   genus: "corvus",
   species: "corvax",
   commonName: "raven",

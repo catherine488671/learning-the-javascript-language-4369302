@@ -9,7 +9,7 @@ function fuddify(speech) {
     return;
   }
 
-  // otherwise, make it sound like Elmer Fudd
+  // otherwise, make it sound like Elmer Fudd, using speech which is the string being inputted
   speech = speech.replace(/r/g, "w");
   speech = speech.replace(/R/g, "W");
 

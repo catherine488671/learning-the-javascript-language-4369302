@@ -7,12 +7,12 @@ for (let i = 0; i < 10; i += 1) {
 let i = 0;
 while (i < 10) {
   console.log(i + "... This will go until we hit 10");
-  i += 1;
+  i++;
 }
 
 var myList = [true, true, true, false, true, true];
 
-var myItem = null;
+var myItem = null; //it is not false
 
 while (myItem !== false) {
   console.log(
@@ -33,6 +33,7 @@ while (true) {
 var myList = [true, true, true, false, true, true];
 
 var myItem = false;
+//do while loop ensures that evertyhing in the curly brackets will be run
 do {
   console.log(
     "myList has " +

@@ -1,14 +1,17 @@
+//this is a function declaration
 function speakSomething(what = 'Speaking!') {
   for (var i = 0; i < 10; i += 1) {
     console.log(what);
   }
 }
 
+//this is a function expression, what the function returns is assigned to the variable
 var speakSomething = function(what = 'Speaking!') {
   for (var i = 0; i < 10; i += 1) {
     console.log(what);
   }
 };
+
 
 setTimeout(speakSomething, 5000);
 
